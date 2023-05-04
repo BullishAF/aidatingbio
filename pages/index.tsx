@@ -23,7 +23,7 @@ const Home: NextPage = () => {
     }
   };
 
-  const prompt = `Generate 2 ${vibe} twitter biographies with no hashtags and clearly labeled "1." and "2.". ${
+  const prompt = `Generate 2 ${vibe} dating biographies with no hashtags and clearly labeled "1." and "2.". ${
     vibe === "Funny"
       ? "Make sure there is a joke in there and it's a little ridiculous."
       : null
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>Tinder Bio Generator</title>
+        <title>Dating App Bio Generator</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -81,7 +81,7 @@ const Home: NextPage = () => {
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
       
         <h1 className="sm:text-5xl text-3xl max-w-[708px] font-bold text-yellow-400">
-          Let AI generate your Tinder Bio!
+          Let AI generate your Dating App Bio!
         </h1>
         <p className="text-orange-600 mt-5">1,118 bios generated so far.</p>
         <div className="max-w-xl w-full">
@@ -94,7 +94,7 @@ const Home: NextPage = () => {
               className="mb-5 sm:mb-0"
             />
             <p className="text-left font-medium">
-              Copy your current tinder bio{" "}
+              Copy your current tinder/bumble/match bio{" "}
               <span className="text-slate-700">
                 (or write a few sentences about yourself)
               </span>
