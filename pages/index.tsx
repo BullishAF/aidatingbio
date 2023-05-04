@@ -80,7 +80,7 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
       
-        <h1 className="sm:text-4xl text-3xl max-w-[708px] font-bold text-pink-400">
+        <h1 className="sm:text-4xl text-3xl max-w-[708px] font-bold text-pink-600">
           Let AI generate your Bio for Dating Apps!
         </h1>
         <div className="max-w-xl w-full">
@@ -92,9 +92,9 @@ const Home: NextPage = () => {
               alt="1 icon"
               className="mb-5 sm:mb-0"
             />
-            <p className="text-left font-medium">
+            <p className="text-left font-medium text-pink-500">
               Copy your current tinder/bumble/match bio{" "}
-              <span className="text-slate-700">
+              <span className="text-pink-700">
                 (or write a few sentences about yourself)
               </span>
               .
@@ -111,7 +111,7 @@ const Home: NextPage = () => {
           />
           <div className="flex mb-5 items-center space-x-3">
             <Image src="/2-black.png" width={30} height={30} alt="1 icon" />
-            <p className="text-left font-medium">Select the vibe you want your bio to give off</p>
+            <p className="text-left font-medium text-pink-500">Select the vibe you want your bio to give off</p>
           </div>
           <div className="block">
             <DropDown vibe={vibe} setVibe={(newVibe) => setVibe(newVibe)} />
@@ -119,7 +119,7 @@ const Home: NextPage = () => {
 
           {!loading && (
             <button
-              className="bg-pink-300 rounded-xl text-black font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-pink-500/80 w-full"
+              className="bg-pink-300 rounded-xl text-black font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-pink-600/80 w-full"
               onClick={(e) => generateBio(e)}
             >
               Generate your tinder bio &rarr;
@@ -145,7 +145,7 @@ const Home: NextPage = () => {
             <>
               <div>
                 <h2
-                  className="sm:text-4xl text-3xl font-bold text-pink-400 mx-auto"
+                  className="sm:text-4xl text-3xl font-bold text-pink-600 mx-auto"
                   ref={bioRef}
                 >
                   Your generated Dating App Bios 😍
