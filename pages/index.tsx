@@ -80,7 +80,7 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
       
-        <h1 className="sm:text-6xl text-3xl max-w-[708px] font-bold text-red-600">
+        <h1 className="sm:text-5xl text-3xl max-w-[708px] font-bold text-red-400">
           Let AI Generate your Tinder Bio
         </h1>
         <p className="text-slate-600 mt-5">1,118 bios generated so far.</p>
@@ -120,7 +120,7 @@ const Home: NextPage = () => {
 
           {!loading && (
             <button
-              className="bg-orange-300 rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-orange-400 text-black/80 w-full"
+              className="bg-yellow-300 rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-yellow-400/80 w-full"
               onClick={(e) => generateBio(e)}
             >
               Generate your tinder bio &rarr;
