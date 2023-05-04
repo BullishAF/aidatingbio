@@ -120,7 +120,7 @@ const Home: NextPage = () => {
 
           {!loading && (
             <button
-              className="bg-orange-400 rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-orange-500/80 w-full"
+              className="bg-orange-300 rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-orange-400 text-black/80 w-full"
               onClick={(e) => generateBio(e)}
             >
               Generate your tinder bio &rarr;
