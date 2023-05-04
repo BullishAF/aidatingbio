@@ -10,7 +10,7 @@ class MyDocument extends Document {
             name="description"
             content="Generate your next dating app bio in seconds."
           />
-          <meta property="og:site_name" content="https://aidatingbio.vercel.app/" />
+          <meta property="og:site_name" content="https://aidating.bio/" />
           <meta
             property="og:description"
             content="Generate your next dating app bio in seconds."
@@ -24,11 +24,11 @@ class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://aidatingbio.vercel.app/og-image.png"
+            content="https://aidating.bio/og-image.png"
           />
           <meta
             name="twitter:image"
-            content="https://aidatingbio.vercel.app/og-image.png"
+            content="https://aidating.bio/og-image.png"
           />
         </Head>
         <body>
