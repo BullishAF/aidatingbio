@@ -13,7 +13,7 @@ export default function Footer() {
         >
          © ChatGPT{" "}
         </a>
-     <span class="block">© 2023 Copyright Ryan Parker</span>
+     <span className="block">© 2023 Copyright Ryan Parker</span>
   </div>
          
        
