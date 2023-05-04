@@ -7,7 +7,7 @@ export default function Header() {
       <Link href="/" className="flex space-x-3">
       
         <h1 className="sm:text-4xl text-2xl text-yellow-300 font-bold ml-2 tracking-tight">
-       🔥 AI Tinder Bio Generator
+       💘 AI Dating App Bio Generator
         </h1>
       </Link>
 
