@@ -73,14 +73,6 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3YVTEVQC28"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3YVTEVQC28');
-</script>
         <title>Dating App Bio Generator</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
