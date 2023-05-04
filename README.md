@@ -1,8 +1,8 @@
-# [AI Dating Bio Generator](https://datingbio.vercel.app/)
+# [AI Dating App Bio Generator](https://datingbio.vercel.app/)
 
 This project generates Dating app bios for you using AI.
 
-[![Twitter Bio Generator](./public/screenshot.png)](https://www.twitterbio.com)
+[![AI Dating Bio Generator](./public/aidatingscreenshot.png)(https://datingbio.vercel.app/)
 
 ## How it works
 
