@@ -73,11 +73,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>Dating App Bio Generator</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      
- // Google tag (gtag.js)
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3YVTEVQC28"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -86,6 +82,9 @@ const Home: NextPage = () => {
 
   gtag('config', 'G-3YVTEVQC28');
 </script>
+        <title>Dating App Bio Generator</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
      
      <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
