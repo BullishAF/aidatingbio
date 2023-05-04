@@ -77,7 +77,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <!-- Google tag (gtag.js) -->
+ // Google tag (gtag.js)
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3YVTEVQC28"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
