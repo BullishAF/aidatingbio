@@ -80,7 +80,7 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
       
-        <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-yellow-400">
+        <h1 className="sm:text-6xl text-3xl max-w-[708px] font-bold text-red-600">
           Let AI Generate your Tinder Bio
         </h1>
         <p className="text-slate-600 mt-5">1,118 bios generated so far.</p>
