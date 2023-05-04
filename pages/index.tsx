@@ -80,10 +80,10 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
       
-        <h1 className="sm:text-5xl text-3xl max-w-[708px] font-bold text-yellow-400">
-          Let AI generate your Dating App Bio!
+        <h1 className="sm:text-5xl text-3xl max-w-[708px] font-bold text-rose-400">
+          Let AI generate your Bio for Dating Apps!
         </h1>
-        <p className="text-orange-600 mt-5">1,118 bios generated so far.</p>
+        <p className="text-yellow-400 mt-5">618 bios generated so far.</p>
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
             <Image
@@ -105,7 +105,7 @@ const Home: NextPage = () => {
             value={bio}
             onChange={(e) => setBio(e.target.value)}
             rows={4}
-            className="w-full rounded-md border-slate-400 shadow-sm focus:border-slate-500 focus:ring-black my-5"
+            className="w-full rounded-md border-rose-200 shadow-sm focus:border-rose-400 focus:ring-black my-5"
             placeholder={
               "e.g. I’m looking for someone to dance around with me in the refrigerator light, sing in the car, and get lost upstate. Yes, this is all from a Taylor Swift song."
             }
@@ -120,7 +120,7 @@ const Home: NextPage = () => {
 
           {!loading && (
             <button
-              className="bg-yellow-300 rounded-xl text-black font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-yellow-400/80 w-full"
+              className="bg-rose-300 rounded-xl text-black font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-rose-500/80 w-full"
               onClick={(e) => generateBio(e)}
             >
               Generate your tinder bio &rarr;
@@ -149,8 +149,8 @@ const Home: NextPage = () => {
                   className="sm:text-4xl text-3xl font-bold text-slate-900 mx-auto"
                   ref={bioRef}
                 >
-                  Your generated tinder bios!
-                </h2>
+                  Your generated Dating App Bios 🎉               
+               </h2>
               </div>
               <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto">
                 {generatedBios
