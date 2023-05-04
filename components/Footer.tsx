@@ -18,6 +18,7 @@ export default function Footer() {
           Copyright © 2023 Ryan Parker. All rights reserved.
        
       </div>
+      <div>
         <Link
           href="https://github.com/BullishAF/tinderbio"
           className="group"
