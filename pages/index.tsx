@@ -78,12 +78,12 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-      <main className="bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-orange-300 via-neutral-100 to-red-300 flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
+      <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
       
-        <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
+        <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-yellow-400">
           Let AI Generate your Tinder Bio
         </h1>
-        <p className="text-slate-500 mt-5">1,118 bios generated so far.</p>
+        <p className="text-slate-600 mt-5">1,118 bios generated so far.</p>
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
             <Image
@@ -120,7 +120,7 @@ const Home: NextPage = () => {
 
           {!loading && (
             <button
-              className="bg-red-400 rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-red-500/80 w-full"
+              className="bg-orange-400 rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-orange-500/80 w-full"
               onClick={(e) => generateBio(e)}
             >
               Generate your tinder bio &rarr;
