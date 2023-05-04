@@ -80,8 +80,8 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
       
-        <h1 className="sm:text-5xl text-3xl max-w-[708px] font-bold text-red-400">
-          Let AI Generate your Tinder Bio
+        <h1 className="sm:text-5xl text-3xl max-w-[708px] font-bold text-orange-400">
+          Let AI generate your Tinder Bio!
         </h1>
         <p className="text-slate-600 mt-5">1,118 bios generated so far.</p>
         <div className="max-w-xl w-full">
@@ -105,7 +105,7 @@ const Home: NextPage = () => {
             value={bio}
             onChange={(e) => setBio(e.target.value)}
             rows={4}
-            className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-5"
+            className="w-full rounded-md border-slate-400 shadow-sm focus:border-slate-500 focus:ring-black my-5"
             placeholder={
               "e.g. I’m looking for someone to dance around with me in the refrigerator light, sing in the car, and get lost upstate. Yes, this is all from a Taylor Swift song."
             }
@@ -120,7 +120,7 @@ const Home: NextPage = () => {
 
           {!loading && (
             <button
-              className="bg-yellow-300 rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-yellow-400/80 w-full"
+              className="bg-yellow-300 rounded-xl text-black font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-yellow-400/80 w-full"
               onClick={(e) => generateBio(e)}
             >
               Generate your tinder bio &rarr;
