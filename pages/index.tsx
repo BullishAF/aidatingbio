@@ -73,7 +73,6 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3YVTEVQC28"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
