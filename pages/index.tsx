@@ -80,10 +80,9 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
       
-        <h1 className="sm:text-4xl text-3xl max-w-[708px] font-bold text-rose-400">
+        <h1 className="sm:text-4xl text-3xl max-w-[708px] font-bold text-pink-400">
           Let AI generate your Bio for Dating Apps!
         </h1>
-        <p className="text-slate-800 mt-5">618 bios generated so far.</p>
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
             <Image
@@ -107,7 +106,7 @@ const Home: NextPage = () => {
             rows={4}
             className="w-full rounded-md border-slate-400 shadow-sm focus:border-slate-600 focus:ring-black my-5"
             placeholder={
-              "e.g. I’m looking for someone to dance around with me in the refrigerator light, sing in the car, and get lost upstate. Yes, this is all from a Taylor Swift song."
+              "e.g. I’m looking for someone to dance around with me in the refrigerator light, sing in the car, and get lost upstate(Yes, this is all from a Taylor Swift song)"
             }
           />
           <div className="flex mb-5 items-center space-x-3">
@@ -120,7 +119,7 @@ const Home: NextPage = () => {
 
           {!loading && (
             <button
-              className="bg-rose-300 rounded-xl text-black font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-rose-500/80 w-full"
+              className="bg-pink-300 rounded-xl text-black font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-pink-500/80 w-full"
               onClick={(e) => generateBio(e)}
             >
               Generate your tinder bio &rarr;
@@ -146,10 +145,10 @@ const Home: NextPage = () => {
             <>
               <div>
                 <h2
-                  className="sm:text-4xl text-3xl font-bold text-rose-400 mx-auto"
+                  className="sm:text-4xl text-3xl font-bold text-pink-400 mx-auto"
                   ref={bioRef}
                 >
-                  Your generated Dating App Bios 🎉               
+                  Your generated Dating App Bios 😍
                </h2>
               </div>
               <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto">
