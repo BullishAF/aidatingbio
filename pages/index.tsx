@@ -86,7 +86,7 @@ const Home: NextPage = () => {
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
             <Image
-              src="/1-black.png"
+              src="/1pink.png"
               width={30}
               height={30}
               alt="1 icon"
@@ -94,7 +94,7 @@ const Home: NextPage = () => {
             />
             <p className="text-left font-medium text-pink-500">
               Copy your current tinder/bumble/match bio{" "}
-              <span className="text-pink-700">
+              <span className="text-pink-600">
                 (or write a few sentences about yourself)
               </span>
               .
@@ -110,7 +110,7 @@ const Home: NextPage = () => {
             }
           />
           <div className="flex mb-5 items-center space-x-3">
-            <Image src="/2-black.png" width={30} height={30} alt="1 icon" />
+            <Image src="/pink2.png" width={30} height={30} alt="1 icon" />
             <p className="text-left font-medium text-pink-500">Select the vibe you want your bio to give off</p>
           </div>
           <div className="block">
@@ -119,7 +119,7 @@ const Home: NextPage = () => {
 
           {!loading && (
             <button
-              className="bg-pink-300 rounded-xl text-black font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-pink-600/80 w-full"
+              className="bg-pink-400 rounded-xl text-black font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-pink-600/80 w-full"
               onClick={(e) => generateBio(e)}
             >
               Generate your tinder bio &rarr;
