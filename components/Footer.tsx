@@ -13,14 +13,7 @@ export default function Footer() {
         >
          © ChatGPT{" "}
         </a>
-      </div>
-      <div className="p-4 text-center text-neutral-700 dark:text-neutral-200">
-    © 2023 Copyright:
-    <a
-      className="text-neutral-800 dark:text-neutral-400"
-      href="https://github.com/BullishAF/datingbio"
-      >Ryan Parker</a
-    >
+     <span class="block">© 2023 Copyright Ryan Parker</span>
   </div>
          
        
