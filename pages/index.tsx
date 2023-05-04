@@ -76,8 +76,18 @@ const Home: NextPage = () => {
         <title>Dating App Bio Generator</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3YVTEVQC28"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      <Header />
+  gtag('config', 'G-3YVTEVQC28');
+</script>
+     
+     <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
       
         <h1 className="sm:text-4xl text-3xl max-w-[708px] font-bold text-pink-500">
