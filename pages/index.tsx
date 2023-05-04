@@ -80,7 +80,7 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
       
-        <h1 className="sm:text-4xl text-3xl max-w-[708px] font-bold text-pink-600">
+        <h1 className="sm:text-4xl text-3xl max-w-[708px] font-bold text-pink-500">
           Let AI generate your Bio for Dating Apps!
         </h1>
         <div className="max-w-xl w-full">
@@ -145,7 +145,7 @@ const Home: NextPage = () => {
             <>
               <div>
                 <h2
-                  className="sm:text-4xl text-3xl font-bold text-pink-600 mx-auto"
+                  className="sm:text-4xl text-3xl font-bold text-pink-500 mx-auto"
                   ref={bioRef}
                 >
                   Your generated Dating App Bios 😍
