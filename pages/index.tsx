@@ -87,8 +87,8 @@ const Home: NextPage = () => {
           <div className="flex mt-10 items-center space-x-3">
             <Image
               src="/1pink.png"
-              width={30}
-              height={30}
+              width={40}
+              height={40}
               alt="1 icon"
               className="mb-5 sm:mb-0"
             />
@@ -110,7 +110,7 @@ const Home: NextPage = () => {
             }
           />
           <div className="flex mb-5 items-center space-x-3">
-            <Image src="/pink2.png" width={30} height={30} alt="1 icon" />
+            <Image src="/pink2.png" width={40} height={40} alt="1 icon" />
             <p className="text-left font-medium text-pink-500">Select the vibe you want your bio to give off</p>
           </div>
           <div className="block">
@@ -122,7 +122,7 @@ const Home: NextPage = () => {
               className="bg-pink-400 rounded-xl text-black font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-pink-600/80 w-full"
               onClick={(e) => generateBio(e)}
             >
-              Generate your tinder bio &rarr;
+              Generate your dating app bio &rarr;
             </button>
           )}
           {loading && (
