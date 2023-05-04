@@ -11,18 +11,18 @@ export default function Footer() {
           rel="noreferrer"
           className="font-bold hover:underline transition underline-offset-2"
         >
-          ChatGPT{" "}
+         © ChatGPT{" "}
         </a>
       </div>
         <div>
-          tinderbio is not affiliated with Tinder in any way. Copyright © 2023 Ryan Parker. All rights reserved.
+          Copyright © 2023 Ryan Parker. All rights reserved.
        
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
-          href="https://twitter.com/RPBullishAF"
+          href="https://twitter.com/"
           className="group"
-          aria-label="RPBullishAF on Twitter"
+          aria-label="Twitter"
         >
           <svg
             aria-hidden="true"
