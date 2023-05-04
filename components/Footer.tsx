@@ -15,7 +15,7 @@ export default function Footer() {
         </a>
       </div>
         <div>
-          Copyright © 2023 Ryan Parker. All rights reserved.
+          Copyright © 2023 Ryan Parker.
        
       </div>
       <div>
