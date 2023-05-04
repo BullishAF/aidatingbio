@@ -13,13 +13,16 @@ export default function Footer() {
         >
           ChatGPT{" "}
         </a>
+      </div>
+        <div>
+          tinderbio is not affiliated with Tinder in any way. Copyright © 2023 Ryan Parker. All rights reserved.
        
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
-          href="https://twitter.com/nutlope"
+          href="https://twitter.com/RPBullishAF"
           className="group"
-          aria-label="TaxPal on Twitter"
+          aria-label="RPBullishAF on Twitter"
         >
           <svg
             aria-hidden="true"
@@ -29,9 +32,9 @@ export default function Footer() {
           </svg>
         </Link>
         <Link
-          href="https://github.com/Nutlope/twitterbio"
+          href="https://github.com/BullishAF/tinderbio"
           className="group"
-          aria-label="TaxPal on GitHub"
+          aria-label="BullishAF on GitHub"
         >
           <svg
             aria-hidden="true"
