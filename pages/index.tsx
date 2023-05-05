@@ -80,16 +80,16 @@ const Home: NextPage = () => {
      <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
        <a
-          className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-pink-500 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
+          className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-pink-500 bg-white px-4 py-2 text-sm text-pink-500 shadow-md transition-colors hover:bg-gray-100 mb-5"
           href="https://www.producthunt.com/posts/ai-dating-bio-generator/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <ProductHunt />
-         <p className="sm:text-4xl text-3xl max-w-[708px] text-pink-500">
+         <p className="sm:text-xl text-2xl max-w-[708px] text-pink-500">
            Find us on
          </p>
-          <h3 className="sm:text-4xl text-3xl max-w-[708px] font-bold text-pink-500">
+          <h3 className="sm:text-xl text-2xl max-w-[708px] font-bold text-pink-500">
             Product Hunt
          </h3>
         </a>        
