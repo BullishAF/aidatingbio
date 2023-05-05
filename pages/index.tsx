@@ -81,7 +81,6 @@ const Home: NextPage = () => {
         <h1 className="sm:text-4xl text-3xl max-w-[708px] font-bold text-pink-500">
           Let AI generate your Bio for Dating Apps!
         </h1>
-          </div>
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
             <Image
