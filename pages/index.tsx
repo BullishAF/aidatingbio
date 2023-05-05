@@ -86,7 +86,8 @@ const Home: NextPage = () => {
           rel="noopener noreferrer"
         >
           <ProductHunt />
-          <p>Star on GitHub</p>
+          <p>Find us on</p>
+         <h3>Product Hunt</h3>
         </a>        
         <h1 className="sm:text-4xl text-3xl max-w-[708px] font-bold text-pink-500">
           Let AI generate your Bio for Dating Apps!
