@@ -89,13 +89,17 @@ const Home: NextPage = () => {
          <p className="sm:text-xl text-2xl max-w-[708px] text-pink-500">
            Find us on
          </p>
+         <div>
           <h3 className="sm:text-xl text-2xl max-w-[708px] font-bold text-pink-500">
             Product Hunt
          </h3>
+         </div>
         </a>        
+        <div>
         <h1 className="sm:text-4xl text-3xl max-w-[708px] font-bold text-pink-500">
           Let AI generate your Bio for Dating Apps!
         </h1>
+          </div>
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
             <Image
