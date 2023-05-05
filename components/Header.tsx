@@ -10,6 +10,19 @@ export default function Header() {
        💞 AI Dating Bio Generator
         </h1>
       </Link>
-    </header>
+       <a
+        href="https://www.producthunt.com/products/ai-dating-bio-generator"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Image
+          alt="Product Hunt"
+          src="/featured.png"
+          className="sm:w-8 sm:h-[27px] w-8 h-[28px]"
+          width={32}
+          height={28}
+        />
+      </a>   
+</header>
   );
 }
