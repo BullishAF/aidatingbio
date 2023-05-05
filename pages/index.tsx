@@ -5,7 +5,7 @@ import { useRef, useState } from "react";
 import { Toaster, toast } from "react-hot-toast";
 import DropDown, { VibeType } from "../components/DropDown";
 import Footer from "../components/Footer";
-import Github from "../components/GitHub";
+import ProductHunt from "../components/ProductHunt";
 import Header from "../components/Header";
 import LoadingDots from "../components/LoadingDots";
 
@@ -79,7 +79,15 @@ const Home: NextPage = () => {
      
      <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
-      
+       <a
+          className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
+          href="https://www.producthunt.com/posts/ai-dating-bio-generator/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ProductHunt />
+          <p>Star on GitHub</p>
+        </a>        
         <h1 className="sm:text-4xl text-3xl max-w-[708px] font-bold text-pink-500">
           Let AI generate your Bio for Dating Apps!
         </h1>
