@@ -7,7 +7,7 @@ export default function Header() {
       <Link href="/" className="flex space-x-3">
       
         <h1 className="sm:text-2xl text-xl text-pink-500 font-bold ml-2 tracking-tight">
-       💞 AI Dating Bio Generator
+       💞 AI Dating Bio
         </h1>
       </Link>
        <a
