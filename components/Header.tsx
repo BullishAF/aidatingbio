@@ -17,8 +17,8 @@ export default function Header() {
       >
         <Image
           alt="Product Hunt"
-          src="/featured.png"
-          className="sm:w-40 sm:h-[40px] w-40 h-[40px]"
+          src="/follow.png"
+          className="sm:w-60 sm:h-[40px] w-60 h-[40px]"
           width={200}
           height={54}
         />
