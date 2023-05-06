@@ -23,19 +23,7 @@ export default function Header() {
           height={54}
         />
       </a>   
-        <a
-        href="https://www.aitoolhunt.com/tool/aidating.bio"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Image
-          alt="AI Tool Hunt"
-          src="/aitoolhunt.png"
-          className="sm:w-50 sm:h-[40px] w-50 h-[40px]"
-          width={200}
-          height={100}
-        />
-      </a>   
+       
 </header>
   );
 }
