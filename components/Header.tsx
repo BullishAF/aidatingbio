@@ -33,7 +33,7 @@ export default function Header() {
           src="/aitoolhunt.png"
           className="sm:w-50 sm:h-[40px] w-50 h-[40px]"
           width={200}
-          height={54}
+          height={100}
         />
       </a>   
 </header>
